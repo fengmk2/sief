@@ -30,14 +30,14 @@
     "chokidar": "git://github.com/paulmillr/chokidar#aac30adebad64f567c452d00e16f284a7e9b5305",
     "commander": "~2.3.0",
     "cookie": "~0.1.2",
-    "debug": "~2.0.0",
+    "debug": "~2.6.7",
     "koa": "~0.11.0",
     "koa-logger": "~1.2.2",
-    "koa-router": "~3.3.1",
+    "koa-router": "~3.4.0",
     "log4js": "~0.6.21",
     "phridge": "~1.0.6",
     "request": "~2.42.0",
-    "socket.io": "~1.1.0",
+    "socket.io": "~2.0.0",
     "tldjs": "~1.5.0",
     "underscore": "~1.7.0"
   }
