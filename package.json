@@ -3,7 +3,10 @@
   "version": "0.1.2",
   "description": "Session hijacking tool in Node.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/shaoshuai0102/thief.git"
@@ -36,9 +39,11 @@
     "koa-router": "~3.3.1",
     "log4js": "~0.6.21",
     "phridge": "~1.0.6",
-    "request": "~2.42.0",
+    "request": "~2.81.0",
     "socket.io": "~1.1.0",
     "tldjs": "~1.5.0",
-    "underscore": "~1.7.0"
-  }
+    "underscore": "~1.7.0",
+    "snyk": "^1.88.2"
+  },
+  "snyk": true
 }
